@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+ <style>
+#p01 {
+    color: green;
+}
+ </style>
+</head>
+<body>
+
+<h2>HTML <small>Small</small> Formatting</h2>
+<h2>HTML <mark>Marked</mark> Formatting</h2>
+
+<p id="p01">I am different</p>
+<p>My favorite color is <del>blue</del> red.</p>
+<p><b>This text is bold</b></p>
+<p>I like to <ins>underline</ins> things.</p>
+<p>This is<sub> subscript</sub> and <sup>superscript</sup>
+<em>This text is emphasized</em> 
+<strong>This text is strong</strong> 
+</p>
+
+<style>
+h3 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+h4 {
+    color: red;
+    font-family: courier;
+    font-size: 160%;
+    border: 1px solid powderblue;
+    margin: 50px;
+}
+</style>
+
+<h3>This is a heading</h1>
+<h4>This is a paragraph.</p>
+
+</body>
+</html>
