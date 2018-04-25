@@ -8,6 +8,8 @@
 </head>
 <body>
 
+<h1>My <span style="color:red">Important</span> Heading</h1>
+
 <h2>HTML <small>Small</small> Formatting</h2>
 <h2>HTML <mark>Marked</mark> Formatting</h2>
 
