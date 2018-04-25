@@ -33,9 +33,48 @@ a:active {
  <p>You can change the default colors of links</p>
 
  <a href="https://www.google.co.uk/" target="_blank">Google</a> <br/>
+ <a href="https://www.w3schools.com/html/" target="_blank">Visit our HTML tutorial!</a> <br/>
+
  <p>If you set the target attribute to "_blank", the link will open in a new browser window or tab.</p> 
  
  <p><a href="#C4">Jump to Chapter 9</a></p>
+ 
+ <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111111;
+}
+</style>
+
+<body>
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<ul>
+  <li><a href="https://www.google.co.uk/">Google</a></li>
+  <li><a href="https://uk.yahoo.com/">Yahoo</a></li>
+  <li><a href="https://skye-maths-and-science-tutor.000webhostapp.com/">Skye Maths and Science Tutor</a></li>
+</ul>
 
  <h2>Chapter 1</h2>
  <p>This chapter explains ba bla bla<br/></p>
