@@ -21,6 +21,12 @@
 </p>
 
 <style>
+#p01 { border: 1px solid powderblue;
+       padding: 30px;}
+</style>
+<p id="p01">The CSS padding property defines a padding (space) between the text and the border.</p>
+
+<style>
 h3 {
     color: blue;
     font-family: verdana;
@@ -36,7 +42,8 @@ h4 {
 </style>
 
 <h3>This is a heading</h1>
-<h4>This is a paragraph.</p>
+<h4>This is a paragraph.</p><br/>
+
 
 </body>
 </html>
